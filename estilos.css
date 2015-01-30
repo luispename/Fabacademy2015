@@ -1,0 +1,41 @@
+header {background: white; }
+header h1 , h2 {text-align: center;font-size: 25px}
+header figure {display: inline-block;}
+nav ul li {list-style: none;font-size: 15px}
+nav ul li {display: inline;
+        padding: 2px 7px; /*Separar el texto*/
+        margin:35px; /* Separar los botones */
+        background-color:white; /* Color de fondo */}
+nav ul {text-align: center;} 
+
+nav ul li:hover {
+        background-color:#CCCCCC; /* Color de fondo sobre el boton */
+        cursor: pointer; /* cambiar el aspecto del puntero */
+}
+nav ul {/* Linea para delimitar la botonera */
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: #E4E4E4;}
+
+
+#overview {margin: 0px; margin-top: 0vh; margin-bottom: 0vh;}
+#overview {background-color:#F5D0A9}
+#portfolio {background-color:#F5D0A9;}
+#welcome {background-color:#F5D0A9;}
+#proposal {background-color:#F5D0A9;}
+
+footer {text-align: center;}
+footer {background-color: black;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;}
+
+#image1 { 
+        background-image: url('imgs/rapidprototyping.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 0 -100px; height:200px;}
+
+
