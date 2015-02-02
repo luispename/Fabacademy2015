@@ -9,18 +9,19 @@
 
 	<body>
     	<header >
-			<figure><img src="../imgs/logofablab.jpg" style="float:right; top:20; right:40; width:100px; height:auto"></figure>
-			<figure><img src="../imgs/logotecsupi3d.jpg" style="float:right; top:20; right:40; width:400px; height:auto"></figure>
+			<figure><img src="../imgs/logofablab.jpg" style="float:right; top:20; right:40; width:60px; height:auto"></figure>
+			<figure><img src="../imgs/logotecsupi3d.jpg" style="float:right; top:20; right:40; width:230px; height:auto"></figure>
+			<figure><img src="../imgs/logoutec.jpg" style="float:right; top:20; right:40; width:60px; height:auto"></figure>
 			<h1>Fab Academy<sup> 2015</sup><br> How to make almost anything</h1>
 			<h2>Luis Peña Mendoza</h2>
 		</header>
 		
 		<nav>
 			<ul>
-			<li><a href="../index.html">Home</a></li>
-			<li><a href="../assignments.html">Assignments</a></li>
-			<li><a href="../finalproject.html">Final Project</a></li>
-			<li><a href="../aboutme.html">About me</a></li>
+			<li><a href="../index.html"><strong>Home</strong></a></li>
+			<li><a href="../assignments.html"><strong>Assignments</strong></a></li>
+			<li><a href="../finalproject.html"><strong>Final Project</strong></a></li>
+			<li><a href="../aboutme.html"><strong>About me</strong></a></li>
 			</ul>
 		</nav>
 		   
@@ -32,23 +33,29 @@
  		<div id="proposal" text-align:right>
 		<div class="container">
 	    <div class="row mt">
-	    <ul class="grid effect-2" id="grid">	
+	    <ul class="grid effect-2" id="grid">
+	    <p> </p>	
 			<div><p>Assignment 1 - week 1 - 28/01</p></div>
+			<tr>
+    			<td><div id="assignment1";> <a href="assignments/1.principles.html"><img src="../imgs/menu/assignments/P011.jpg" width="70" height="70" border="0"></a> 
+    			</td><td>Plan and sketch a potential semester project and build a personal site in the class archive describing you and your final project<p> </p></div></td>
+    			</tr>
+
 			<div class="content-header ng-scope">
 			<h1>Final Project proposal</h1>
-			<p class="lead">processing images, open cv, science, technology, digital fabrication, electronics, networking</p>
+			<h4>Digital fabrication, electronics, rotary axis, automatic tool changer, processing images, open cv, science, technology, networking</h4>
 			</div>
 			<div class="page-content no-padding ng-scope">
 				<section>
 				<h2>"Double sided layer - PCB Milling Machine"</h2>
 				<div align="center"><img src="../imgs/assignments/week1/normalpcb.png" style="width:250px"></div>
 				<p> </p>
-				<p>After spending many hours thinking about my final project proposal I decided to build a machine that can do manufacture a provision of the double plate, as current machines have to finish one side of the plate, and need to replace the card in the another plate being careful not to change the position of the card. Once the plate is placed either to recalibrate the machine. We are proposing to reduce or even eliminate the time spent in changing the face of the card use a camera to alignment of the double sided board</p>
+				<p>After spending many hours thinking about my final project proposal I decided to build a machine that can do manufacture a provision of the double plate, as current machines have to finish one side of the plate, and need to replace the card in the another plate being careful not to change the position of the card. Once the plate is placed either to recalibrate the machine. I'm proposing to reduce or even eliminate the time spent in changing the face of the card use a camera to alignment of the double sided board</p>
 				</section>
 
 				<section>
 				<h3>A. Trouble</h3>
-					<p>There are many times we want to make a PCB for any electronics or mechatronics project and we have no space enougth using a typical PCB (only one layer side). From our design is too large, or have a place to reduce PCB board have to use a double layer design . <br> Once we have the full schematic design using any PCB software , we proceed to build our design dual path. Then we will use a machine to manufacture our card , but we realize that we must first milling one side , then the process stops and convert the card for milling or drilling the second design . We even have modern machines , this process is too basic, and spending too much time turning the card. Sometimes the holes do not coincide and we have a lot of problem with the PCB.
+					<p>There are many times I want to make a PCB for any electronics or mechatronics project and I have no space enougth using a typical PCB (only one layer side). The design is too large, or have a place to reduce PCB board have to use a double layer design. <br> Once I have the full schematic design using any PCB software, proceed to build it dual path. Then I'll use a machine to manufacture the card. For that, the first step is milling one side, then the process stops and convert the card for milling or drilling the second design . I even have modern machines, this process is too basic, and spending too much time turning the card. Sometimes the holes do not coincide and we have a lot of problem with the PCB.
 					</p>
 				</section>
 
@@ -56,6 +63,16 @@
 				<h3>B. Some inspirational references</h3>	
 				<p>A list of references where I take some of my inspirations to make this experiment and for further research:</p>
 				<ol>
+					<li>Patrick Thorn - MDX40A Rotary Axis
+						<ul>
+						<object width="200" height="125">
+	  					<param name="movie"value="http://www.youtube.com/v/VIUQECRsV3c?version=3&autohide=1&showinfo=0"></param>
+	  					<param name="allowScriptAccess" value="always"></param>
+	 					<embed src="http://www.youtube.com/v/VIUQECRsV3c?version=3&autohide=1&showinfo=0"type="application/x-shockwave-flash"
+	         			allowscriptaccess="always"width="425" height="355"></embed>
+	         			</object>
+						</ul>
+					</li>
 					<li>Mikey Sklar - Double Sided PCB CNC Milling
 						<ul>
 						<object width="200" height="125">
@@ -73,35 +90,40 @@
 						<div align="left"><img src="../imgs/assignments/week1/doublepcb.png" style="width:450px; height:auto"></div>
 						</ul>
 					</li>
-					<li> Christopher Robinson - How to zero-out my double sided PCB's during milling?
+					<li>HungSic Jang - Homemade CNC ATC Test Automatic Tool Changer
 						<ul>
 						<object width="200" height="125">
-	  					<param name="movie"value="http://www.youtube.com/v/Ydc-blGyZ8Q?version=3&autohide=1&showinfo=0"></param>
+	  					<param name="movie"value="http://www.youtube.com/v/BYj_HVDn08Y?version=3&autohide=1&showinfo=0"></param>
 	  					<param name="allowScriptAccess" value="always"></param>
-	 					<embed src="http://www.youtube.com/v/Ydc-blGyZ8Q?version=3&autohide=1&showinfo=0"type="application/x-shockwave-flash"
+	 					<embed src="http://www.youtube.com/v/BYj_HVDn08Y?version=3&autohide=1&showinfo=0"type="application/x-shockwave-flash"
 	         			allowscriptaccess="always"width="425" height="355"></embed>
 	         			</object>
 						</ul>
 					</li>
-				
+		
 				</ol>
 				</section>
 
 
 				<section>
 				<h3>C. First concept ideas</h3>
-					<p>To do this we will design and build a "Double sided layer - PCB Machine" This machine can perform drilling, milling and routing any card for maximum plate measures 10x10cm . Additionally have an automated system that allows for the case of plates with double layout, rotate the plate saving the time and effort that would cause change in a common PCB machine. It should be noted that this proposal PCB prototiping machine locates the same point and start milling and drilling holes for connecting plates with double layout, because otherwise, would have a full plate positioning failure, and the circuit would not be continuous on both sides of the plate.</p>
+					<p>To do this we will design and build a "Double sided layer - PCB Machine" This machine can perform drilling, milling and routing any card for maximum plate measures 10x10cm . Additionally have an automated system that allows for the case of plates with double layout, rotate the plate saving the time and effort that would cause change in a common PCB machine. It should be noted that this proposal PCB prototiping machine locates the same point and start milling and drilling holes for connecting plates with double layout, because otherwise, would have a full plate positioning failure, and the circuit would not be continuous on both sides of the plate. This prototype will have an automatic tool changer and an Exhaust fan</p>
 				</section>
 
+				<div align="center"><img src="../imgs/assignments/week1/proposal.jpg" style="width:550px; height:auto"></div>
 							
-			<section>
+				<section>
 				<h3>D. Differential elements of the proposal</h3>
 				<p>A list of differential elements of the proposal</p>
 				<ol>
-					<li>Easy and quick change of heads
-						<ul><li>This prototipe will have detachable heads and will had an easy way to remove and swap. You can switch head for different tasks, for example you can use a head to milling, other head to milling and another to routing the board and to exchange quickly. Those heads could have a drill for each one, and just change when is needed.
-						We pretend  to make this easy exchanger using magnets to couple it to the structure. This action will only take some seconds and we will win time in the process.
+					<li>Automatic Tool Changer
+						<ul><li>This prototype will have an automatic tool changer we want to make the machine will have the ability to fully automatic tool changes during the operation program, for example, it could  use a milling tool and a drilling tool.
 						</li></ul>
+
+					<li>Rotary axis
+						<ul><li>This machine will have an automated system that allows for the case of plates with double layout, rotate the plate saving the time and effort that would cause change in a common PCB machine.
+						</li></ul>				
+					</li>
 
 					<li>Image recognition
 						<ul><li>One of the tools that the project will have is a camera that recognize a couple of holes that were made in the plate. The camera will verify that the board is properly positioned , otherwise it will send a message to the computer indicating that it is poorly positioned . This camera produces us a reference in the X, Y axis which we can set the starting point to begin work. 
@@ -111,7 +133,7 @@
 					</li>
 
 					<li>Exhaust fan
-						<ul><li>This machine has an air extractor system that absorbs the copper particles removed from the plate. This system is activated whenever ending layout of a face, and can also be activated in the process of milling and drilling.
+						<ul><li>This machine will have an air extractor system that absorbs the copper particles removed from the plate. This system is activated whenever ending layout of a face, and can also be activated in the process of milling and drilling.
 						</li></ul>				
 					</li>
 				
@@ -135,6 +157,12 @@
 				<h3>F. Digital Fabrication Processes</h3><p>Some of the processes to build the final interactive installation will be:</p><p>Computer-Aided Design, Computer-Controlled Cutting, Electronics Production, Computer-Controlled Machining, Electronics Design, Molding and Casting: for bio light containers, Composites , Embedded Programming, 3D scanning a printing, Input devices, Interface and application programming, Output Devices, Networking and Communications</p></section>
 
 				<section><h3>G. Schedule</h3><p>The main idea is to develop this project over the journey of Fab Academy 2015. Many of the learning processes are included so I will take as an opportunity to experiment with other ideas as well.</p></section>
+
+
+				<div align="center"><img src="../imgs/assignments/week1/programacion.jpg" style="width:450px; height:auto"></div>
+				<p> </p>
+				<div align="center"><img src="../imgs/assignments/week1/gantt.jpg" style="width:1100px; height:auto"></div>
+				<p> </p>
 				<section><p><strong>Here we go Fab Academy!!!</strong></section>
 			</div>
 		</ul>
